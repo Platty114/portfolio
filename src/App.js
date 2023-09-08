@@ -37,10 +37,10 @@ function App() {
             <Container maxWidth={false}>
               <BrowserRouter>
                 <Routes>
-                  <Route path="/portfolio/" element={<About />} />
-                  <Route path='/portfolio/About' element={<About />} />
-                  <Route path="/portfolio/Experience" element={<Experience/>} />
-                  <Route path="/portfolio/Projects" element={<Projects/>} />
+                  <Route path="/" element={<About />} />
+                  <Route path="/About" element={<About />} />
+                  <Route path="Experience" element={<Experience/>} />
+                  <Route path="Projects" element={<Projects/>} />
                 </Routes>
               </BrowserRouter>
             </Container>
